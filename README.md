@@ -1,6 +1,6 @@
 # HiringApp
 
-### ¿Cual es la funcionalidad de la aplicación EmpleosApp?
+### ¿Cual es la funcionalidad de la aplicación HiringApp?
 
 - El proyecto que vamos a desarrollar es una aplicación web para publicar ofertas de trabajo en Internet. 
 - Esta aplicación esta estructurada en dos secciones principales:

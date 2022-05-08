@@ -90,6 +90,7 @@ public class HomeController {
 			vacante1.setFecha(sdf.parse("05-05-2022"));
 			vacante1.setSalario(5000.0);
 			vacante1.setDestacado(1);
+			vacante1.setImagen("empresa1.png");
 			
 			// Creamos la oferta de Trabajo 2.
 			Vacante vacante2 = new Vacante();
@@ -99,8 +100,9 @@ public class HomeController {
 			vacante2.setFecha(sdf.parse("05-05-2022"));
 			vacante2.setSalario(2000.0);
 			vacante2.setDestacado(0);
+			vacante2.setImagen("empresa2.png");
 
-			
+	
 			// Creamos la oferta de Trabajo 3.
 			Vacante vacante3 = new Vacante();
 			vacante3.setId(3);
@@ -109,7 +111,7 @@ public class HomeController {
 			vacante3.setFecha(sdf.parse("05-05-2022"));
 			vacante3.setSalario(7000.0);
 			vacante3.setDestacado(0);
-
+			
 			
 			// Creamos la oferta de Trabajo 4.
 			Vacante vacante4 = new Vacante();
@@ -119,6 +121,7 @@ public class HomeController {
 			vacante4.setFecha(sdf.parse("05-05-2022"));
 			vacante4.setSalario(2500.0);
 			vacante4.setDestacado(1);
+			vacante4.setImagen("empresa4.png");
 
 			
 			/**

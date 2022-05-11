@@ -10,7 +10,7 @@
 	<img th:src="@{/images/pngwing.com.png}" width="136" height="136">
 	<h1 class="text-dark">Lista de Vacantes</h1>
 	
-<table style="width:100%" border="1" class="table table-dark table-hover table-bordered">
+<table style="width:100%" border="1" class="table table-dark table-hover table-bordered d-flex">
   <tr>
   	<th>Logo</th>
     <th>Id</th>
@@ -20,6 +20,7 @@
     <th>Descripcion</th> 
     <th>Destacada</th>
    	<th>Detalle</th>
+   	<th>Borrar</th>
   </tr>
   
   <!-- Renderizamos los objetos de cada fila en una tabla --> 
@@ -47,6 +48,9 @@
   </td>
   <td>
   	<a th:href="@{/vacantes/view/{id} (id=${vacante.id}) }" class="btn btn-outline-primary">Detalle</a>
+  </td>
+  <td>
+  	<a th:href="@{/vacantes/delete(id=${vacante.id}) }" class="btn btn-outline-danger">Borrar</a>
   </td>
   
     </tr>

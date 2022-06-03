@@ -5,4 +5,5 @@ import com.hiring.model.Vacante;
 
 public interface IVacantesService {
 	List<Vacante> buscarTodas();
+	Vacante buscarPoId(Integer idVacante);
 }
